@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SolidFrontEnd/static/css/main.f964a854.css",
+    "main.js": "/SolidFrontEnd/static/js/main.42580723.js",
+    "index.html": "/SolidFrontEnd/index.html",
+    "static/media/error.svg": "/SolidFrontEnd/static/media/error.541efc6fae6105dac9c99a0f6b77af48.svg",
+    "static/media/cart.svg": "/SolidFrontEnd/static/media/cart.6aed90bd1bc7209e1fd560b221f1a7ee.svg",
+    "static/media/Star.svg": "/SolidFrontEnd/static/media/Star.c27382f9a55d66a12e4263be4cdac003.svg",
+    "static/media/close.svg": "/SolidFrontEnd/static/media/close.9183212e119f20527c9a40ac40a850b9.svg",
+    "main.f964a854.css.map": "/SolidFrontEnd/static/css/main.f964a854.css.map",
+    "main.42580723.js.map": "/SolidFrontEnd/static/js/main.42580723.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f964a854.css",
+    "static/js/main.42580723.js"
+  ]
+}
