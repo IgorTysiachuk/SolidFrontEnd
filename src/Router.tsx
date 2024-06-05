@@ -66,7 +66,7 @@ function Router() {
                             <Route path='create' element={<CreateProductPage />} />
                             <Route path='users' element={<Outlet />}>
                                 <Route path=':userId' element={<UserPage />} />
-                                <Route index element={<div>123</div>} />
+                                <Route index element={<div>1213</div>} />
                             </Route>
                             <Route path='login' element={<LoginPage />} />
                             <Route path='register' element={<RegisterPage />} />
