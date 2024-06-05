@@ -1,0 +1,57 @@
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+.button {
+    height: 100%;
+    padding: 0 20px;
+    border-radius: var(--button-border-radius);
+    font-size: 1em;
+    border-radius: var(--button-border-radius);
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    font-family: var(--button-ff);
+
+    &_solid {
+        color: #fff;
+        background-color: var(--color);
+        border: none;
+    }
+
+    &_dashed {
+        color: #000;
+        background-color: #fff;
+        border: 1px solid var(--grey-color);
+
+    }
+
+    &_into {
+        inset: 0;
+        width: 100%;
+        height: 100%;
+        background-color: var(--color);
+        position: absolute;
+        border-radius: var(--button-border-radius);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &_img {
+            animation: rotate 1.5s linear infinite;
+        }
+    }
+
+    &_grey {
+        background-color: rgb(151, 151, 151);
+        box-shadow: 4px 4px 4px #000;
+    }
+
+}

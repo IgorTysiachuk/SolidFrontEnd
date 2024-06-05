@@ -1,0 +1,91 @@
+@keyframes line {
+    0% {
+        left: -30%;
+        width: 30%;
+    }
+
+    50% {
+        width: 40%;
+    }
+
+    100% {
+        width: 30%;
+        left: 100%;
+    }
+}
+
+
+
+.anim {
+    width: 100px;
+    height: 6px;
+    border-radius: 4px;
+    background-color: var(--grey-color);
+    overflow: hidden;
+    position: relative;
+
+    &_line {
+        position: absolute;
+        width: 30%;
+        height: 100%;
+        background-color: var(--color);
+        border-radius: 4px;
+        animation: line 1.5s ease-in-out infinite;
+    }
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes triangle-size {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(2.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.cycle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &_into {
+        width: 50%;
+        height: calc(100% + 12px);
+        top: -7px;
+        left: 50%;
+        display: flex;
+        justify-content: center;
+        animation: rotate 1.5s linear infinite;
+
+        &_triangle {
+            width: 0;
+            height: 0;
+            border-left: 10px solid transparent;
+            border-right: 10px solid transparent;
+            border-top: 15px solid rgb(255, 255, 255);
+            animation: triangle-size 1.5s linear infinite;
+
+        }
+    }
+}

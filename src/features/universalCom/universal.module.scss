@@ -1,0 +1,17 @@
+.content {
+    margin: var(--Ypadding) auto;
+    width: calc(100% - calc(var(--padding) * 2));
+    padding: 0 var(--padding);
+    max-width: var(--content-max-width);
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    position: relative;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}

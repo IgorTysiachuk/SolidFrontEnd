@@ -1,0 +1,25 @@
+:root {
+    --grey-color: #d6d3d3;
+    --color: #48009b;
+    --light-color: #ac80df;
+
+    --padding: 30px;
+    --ui-padding: 15px;
+    --button-border-radius: 4px;
+    --Ypadding: 20px;
+    --content-max-width: 1200px;
+    --black: #000;
+    --white: #fff;
+    --light-grey: #dfdfdf;
+
+    --header-height: 50px;
+    --button-ff: "Andika";
+
+    --skeleton-color: #99999942;
+}
+
+@media screen and (max-width: 1200px) {
+    :root {
+        --padding: 3%;
+    }
+}
